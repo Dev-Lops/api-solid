@@ -12,6 +12,7 @@
   "devDependencies": {
     "@rocketseat/eslint-config": "2.2.2",
     "@types/node": "^22.13.1",
+    "@vitest/coverage-v8": "3.0.5",
     "eslint": "8.57.1",
     "prisma": "6.3.1",
     "tsup": "^8.3.6",
@@ -29,7 +30,8 @@
     "build": "tsup src --out-dir build",
     "start": "node build/server.js",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "type": "commonjs",
   "version": "1.0.0"
