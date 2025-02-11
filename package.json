@@ -33,7 +33,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "test:ui": "vitest -
+    "test:ui": "vitest --ui"
+  },
   "type": "commonjs",
   "version": "1.0.0"
 }
